@@ -1,0 +1,25 @@
+from setuptools import setup, find_namespace_packages
+
+setup(
+    name='helper',
+    version='1.0.0',
+    author='',
+    description='bot',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/DenysTryshkin/GrannyHelper.git',
+    packages=find_namespace_packages(),
+    include_package_data=True,
+    entry_points={"console_scripts": ["bot = source.main:main"]},
+    install_requires=[
+        'colorama>=0.4.0',
+        "prompt_toolkit",
+        "setuptools",
+    ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
+)
