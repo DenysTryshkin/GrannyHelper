@@ -4,11 +4,15 @@ A smart assistant designed to help your loved ones, especially grandparents, eas
 
 ---
 
-### Installation:
-Installation is straightforward via pip in project folder:
-```
-pip install .
-```
+📦 Installation
+Clone the repository:
+git clone https://github.com/DenysTryshkin/GrannyHelper.git
+cd GrannyHelper
+(Optional) Install the package via pip:
+python3 -m pip install .
+Installing via pip allows you to run the bot from any directory on your system.
+If you just want to run it locally, you can skip this step and run the scripts directly:
+python3 helper.py
 
 ### List of all functions:
 - Add,change and delete contacts, phone numbers, emails, home address, birthdays of loved ones
