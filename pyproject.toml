@@ -1,0 +1,17 @@
+[project]
+name = "grannyhelper"
+version = "0.1.0"
+description = "A senior-friendly command-line personal assistant for managing contacts, birthdays, notes, and reminders."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Denys Tryshkin" }
+]
+dependencies = [
+    "colorama==0.4.6",
+    "prompt-toolkit==3.0.43",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
